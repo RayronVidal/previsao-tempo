@@ -3,9 +3,9 @@ import './style.css';
 import styles from './index.module.css';
 import axios from 'axios';
 
-const ImaGarfild = "/public/imageNomal.png";
-const ImaGarfildCalor = "/public/Calor.png";
-const ImaGarfildFrio = "/public/image.png";
+const ImaGarfild = "/imageNomal.png";
+const ImaGarfildCalor = "/Calor.png";
+const ImaGarfildFrio = "/image.png";
 
 function PegarHora(){
     let agora = new Date()
